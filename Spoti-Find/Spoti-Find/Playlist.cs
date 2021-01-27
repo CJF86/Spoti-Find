@@ -11,5 +11,9 @@ namespace Spoti_Find
         public List<Song> SongList;
         public List<Activity> ActivityList;
         public List<Artist> ArtistList;
+        public List<Release> ReleaseList;
+        
+
+
     }
 }

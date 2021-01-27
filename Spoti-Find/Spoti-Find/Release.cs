@@ -19,7 +19,8 @@ namespace Spoti_Find
         Country,
         Rap,
         Rock,
-        EDM
+        EDM,
+        Pop
     }
 
     class Release
@@ -29,5 +30,12 @@ namespace Spoti_Find
         public Genre thisGenre;
         public Artist thisArtist;
         public DateTime ReleaseDate;
+        public List<Song> SongsInRelease;
+        public Release()
+        {
+            Console.WriteLine("Release created.");
+            SongsInRelease = new List<Song>();
+        }
+        
     }
 }
